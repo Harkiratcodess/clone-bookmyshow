@@ -46,10 +46,8 @@ async function downloadPDF(data) {
     const { jsPDF } = window.jspdf;
     const doc = new jsPDF();
 
-    // 🔽 Convert image URL to base64
     const imgData = await getBase64Image(data.avatar_url);
 
-    // 🖼️ Add image
     doc.addImage(imgData, 'JPEG', 20, 20, 40, 40);
 
     doc.setFontSize(16);

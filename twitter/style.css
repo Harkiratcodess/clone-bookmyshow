@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e6ecf0;
+    display: flex;
+}
+nav{
+    height: 100dvh;
+    width: 385px;
+    background-color: #1da1f2;
+    
+}
+
+main{
+    height: 100dvh;
+    flex: 1;
+    background-color: #571515;
+}
+
+aside{
+    height: 100dvh;
+    width: 415px;
+    background-color: #1da1f2;
+}
